@@ -9,6 +9,8 @@ It uses the browser’s **Local Storage** 🗄️ to persist cart items and tota
 
 Perfect for beginners to learn **DOM manipulation**, **event handling**, and **client-side data storage**.
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![Made with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-yellowgreen) ![Repo size](https://img.shields.io/github/repo-size/kaihere14/-Quickcart) ![Last commit](https://img.shields.io/github/last-commit/kaihere14/-Quickcart) ![Issues](https://img.shields.io/github/issues/kaihere14/-Quickcart) ![GitHub stars](https://img.shields.io/github/stars/kaihere14/-Quickcart?style=social)
+
 
 ---
 
