@@ -41,7 +41,7 @@ Perfect for beginners to learn **DOM manipulation**, **event handling**, and **c
 
 1. **Clone the repository**
     ```
-    git clone https://github.com/your-username/quickcart.git
+    git clone https://github.com/kaihere14/-Quickcart.git
     ```
 
 2. **Open the project folder**
@@ -91,12 +91,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**💡 Pro Tip:**  
-You can expand this project by adding:
-- Product images  
-- Quantity controls  
-- Confirmation modals  
-- Search and filter features
 
 ---
 
