@@ -4,20 +4,17 @@ A lightweight shopping cart application built with HTML, CSS, and vanilla JavaSc
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)  
 ![Built with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-yellowgreen.svg)  
-![Repo size](https://img.shields.io/github/repo-size/kaihere14/-Quickcart)  
-![Last commit](https://img.shields.io/github/last-commit/kaihere14/-Quickcart)  
-![GitHub stars](https://img.shields.io/github/stars/kaihere14/-Quickcart?style=social)  
 
 ---
 
 ## ✅ Core Features
 
 - **Product listing** with name and price display  
-- **Add/remove items** with single-click interactions  
+- **Add/remove items** via click interactions  
 - **Real-time total calculation**  
 - **Local Storage persistence** for cart data  
-- **Dark-themed UI** with responsive design  
-- **No frameworks required** – pure HTML/CSS/JS  
+- **Dark-themed responsive UI** using CSS Flexbox  
+- **Vanilla JS implementation** (no frameworks)  
 
 ---
 
@@ -52,11 +49,11 @@ quickcart/
 
 ## 🧪 Technical Implementation
 
-- **Data source**: Hardcoded product array in JavaScript  
+- **Product data**: Hardcoded array in JavaScript  
 - **Storage**:  
   - Cart items: `localStorage.getItem('data')`  
   - Total price: `localStorage.getItem('price')`  
-- **UI updates**: `setInterval` refreshes display every second  
+- **UI updates**: Display refreshed every second via `setInterval`  
 - **Persistence**: Data remains after page reloads until manually cleared  
 
 ---
@@ -76,8 +73,3 @@ This project demonstrates:
 
 Distributed under the [MIT License](LICENSE).  
 Permission is granted to use, modify, and distribute freely.
-
----
-
-Developed with HTML, CSS, and JavaScript.  
-Perfect for learning core web development concepts without framework dependencies.
