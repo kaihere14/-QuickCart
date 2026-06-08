@@ -14,7 +14,6 @@ A lightweight shopping cart application built with HTML, CSS, and vanilla JavaSc
 - **Real-time total calculation**  
 - **Local Storage persistence** for cart data  
 - **Dark-themed responsive UI** using CSS Flexbox  
-- **Vanilla JS implementation** (no frameworks)  
 
 ---
 
@@ -54,7 +53,6 @@ quickcart/
   - Cart items: `localStorage.getItem('data')`  
   - Total price: `localStorage.getItem('price')`  
 - **UI updates**: Display refreshed every second via `setInterval`  
-- **Persistence**: Data remains after page reloads until manually cleared  
 
 ---
 
