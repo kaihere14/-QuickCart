@@ -1,19 +1,29 @@
 # QuickCart
 
-A lightweight shopping cart application built with HTML, CSS, and vanilla JavaScript. Uses browser Local Storage for persistent cart data across page reloads. Ideal for learning DOM manipulation, event handling, and client-side storage.
+A lightweight shopping cart application built with HTML, CSS, and vanilla JavaScript. Demonstrates client-side data persistence, DOM manipulation, and responsive design.
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)  
-![Built with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-yellowgreen.svg)  
+![JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-yellowgreen.svg)  
 
 ---
 
-## ✅ Core Features
+## 🧩 Key Features
 
-- **Product listing** with name and price display  
-- **Add/remove items** via click interactions  
-- **Real-time total calculation**  
-- **Local Storage persistence** for cart data  
-- **Dark-themed responsive UI** using CSS Flexbox  
+- **Product Management**: Add/remove items with click interactions  
+- **Dynamic Calculations**: Real-time total price updates  
+- **Persistent Storage**: Cart data saved in `localStorage` across sessions  
+- **Responsive UI**: Dark-themed layout using CSS Flexbox  
+- **Vanilla JS**: No external libraries – pure JavaScript implementation  
+
+---
+
+## 🧪 Technical Implementation
+
+- **Data Storage**:  
+  - Cart contents: `localStorage.getItem('data')`  
+  - Total price: `localStorage.getItem('price')`  
+- **UI Updates**: Display refreshed every second via `setInterval`  
+- **Product Data**: Hardcoded array in JavaScript  
 
 ---
 
@@ -39,31 +49,21 @@ quickcart/
 2. Open in browser:  
    ```bash
    cd quickcart
-   open index.html
+   open index.html  # or double-click index.html in file explorer
    ```
 
 *No server required – runs natively in modern browsers.*
 
 ---
 
-## 🧪 Technical Implementation
-
-- **Product data**: Hardcoded array in JavaScript  
-- **Storage**:  
-  - Cart items: `localStorage.getItem('data')`  
-  - Total price: `localStorage.getItem('price')`  
-- **UI updates**: Display refreshed every second via `setInterval`  
-
----
-
-## 📚 Educational Value
+## 📚 Learning Objectives
 
 This project demonstrates:  
-- Local Storage API for client-side data persistence  
-- DOM manipulation with vanilla JS  
+- Local Storage API for client-side persistence  
+- DOM manipulation with vanilla JavaScript  
 - Event-driven programming (click handlers)  
-- Responsive design with CSS Flexbox  
-- Data binding between JS arrays and UI elements  
+- Responsive layout with CSS Flexbox  
+- Data binding between arrays and UI elements  
 
 ---
 
