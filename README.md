@@ -1,6 +1,6 @@
 # QuickCart
 
-A lightweight shopping cart application built with HTML, CSS, and vanilla JavaScript. Demonstrates client-side data persistence, DOM manipulation, and responsive design.
+A minimalist shopping cart application built with HTML, CSS, and vanilla JavaScript. Demonstrates client-side data persistence, DOM manipulation, and responsive design.
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)  
 ![JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-yellowgreen.svg)  
@@ -9,21 +9,21 @@ A lightweight shopping cart application built with HTML, CSS, and vanilla JavaSc
 
 ## 🧩 Key Features
 
-- **Product Management**: Add/remove items with click interactions  
-- **Dynamic Calculations**: Real-time total price updates  
-- **Persistent Storage**: Cart data saved in `localStorage` across sessions  
-- **Responsive UI**: Dark-themed layout using CSS Flexbox  
-- **Vanilla JS**: No external libraries – pure JavaScript implementation  
+- **Product Management**: Add/remove items via click interactions  
+- **Dynamic Calculations**: Real-time price updates using JavaScript  
+- **Persistent Storage**: Cart state saved in `localStorage` across sessions  
+- **Responsive Design**: Dark-themed layout with CSS Flexbox  
+- **Vanilla JS**: Pure JavaScript implementation (no frameworks)  
 
 ---
 
-## 🧪 Technical Implementation
+## 🧪 Technical Highlights
 
-- **Data Storage**:  
-  - Cart contents: `localStorage.getItem('data')`  
-  - Total price: `localStorage.getItem('price')`  
-- **UI Updates**: Display refreshed every second via `setInterval`  
-- **Product Data**: Hardcoded array in JavaScript  
+- **Storage Mechanism**:  
+  - Cart data: `localStorage.getItem('data')`  
+  - Price state: `localStorage.getItem('price')`  
+- **UI Updates**: DOM refreshed via `setInterval` for live updates  
+- **Data Source**: Product catalog defined as a hardcoded JavaScript array  
 
 ---
 
@@ -53,17 +53,6 @@ quickcart/
    ```
 
 *No server required – runs natively in modern browsers.*
-
----
-
-## 📚 Learning Objectives
-
-This project demonstrates:  
-- Local Storage API for client-side persistence  
-- DOM manipulation with vanilla JavaScript  
-- Event-driven programming (click handlers)  
-- Responsive layout with CSS Flexbox  
-- Data binding between arrays and UI elements  
 
 ---
 
