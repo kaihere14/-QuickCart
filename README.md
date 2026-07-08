@@ -7,27 +7,26 @@ A minimalist shopping cart application built with HTML, CSS, and vanilla JavaScr
 
 ---
 
-## 🧩 Key Features
+## 🧩 Features
 
-- **Product Management**: Add/remove items via click interactions  
-- **Dynamic Calculations**: Real-time price updates using JavaScript  
-- **Persistent Storage**: Cart state saved in `localStorage` across sessions  
-- **Responsive Design**: Dark-themed layout with CSS Flexbox  
-- **Vanilla JS**: Pure JavaScript implementation (no frameworks)  
-
----
-
-## 🧪 Technical Highlights
-
-- **Storage Mechanism**:  
-  - Cart data: `localStorage.getItem('data')`  
-  - Price state: `localStorage.getItem('price')`  
-- **UI Updates**: DOM refreshed via `setInterval` for live updates  
-- **Data Source**: Product catalog defined as a hardcoded JavaScript array  
+- **Product Management**: Add/remove items with intuitive click interactions  
+- **Live Calculations**: Real-time price updates via JavaScript event listeners  
+- **Persistent Storage**: Cart state saved in `localStorage` across browser sessions  
+- **Responsive Design**: Dark-themed layout using CSS Flexbox  
+- **Vanilla JS**: Pure JavaScript implementation (no frameworks or libraries)  
 
 ---
 
-## 📁 Project Structure
+## 🛠 Implementation Details
+
+- **Storage**: Uses `localStorage` to persist cart data and price state  
+- **UI Updates**: DOM elements refreshed via `setInterval` for live state synchronization  
+- **Data Source**: Product catalog defined as a static JavaScript array  
+- **Architecture**: Single-page application with client-side rendering  
+
+---
+
+## 📁 Structure
 
 ```
 quickcart/
@@ -52,7 +51,7 @@ quickcart/
    open index.html  # or double-click index.html in file explorer
    ```
 
-*No server required – runs natively in modern browsers.*
+*Runs natively in modern browsers – no server required.*
 
 ---
 
